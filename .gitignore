@@ -1,0 +1,33 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+dist
+
+# testing
+/test/
+
+# incremental compilation
+**/*.tsbuildinfo
+
+*.log
+
+# misc
+.DS_Store/
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+.env.bak
+.idea/
+.idea
+**/*.nyc_output
+*.iml
+.vscode/settings.json
+npm-debug.log*
+
+#ignore .ts.mjml files generated for email dev
+*.ts.mjml
+.npmrc
