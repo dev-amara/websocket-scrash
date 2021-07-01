@@ -31,3 +31,5 @@ npm-debug.log*
 #ignore .ts.mjml files generated for email dev
 *.ts.mjml
 .npmrc
+
+yarn.lock
